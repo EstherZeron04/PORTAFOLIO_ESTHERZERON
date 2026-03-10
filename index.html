@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio | Esther Zeron</title>
+    <meta name="description" content="Portafolio personal desarrollado con Vite y LESS." />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <div class="container nav">
+          <a class="brand" href="#inicio">Esther Zeron</a>
+          <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="inicio">
+          <div class="container hero__grid">
+            <div class="hero__content">
+              <p class="eyebrow">Desarrolladora Web</p>
+              <h1>Creo sitios web modernos, claros y responsivos.</h1>
+              <p class="hero__text">
+                Este portafolio fue desarrollado con Vite y LESS, optimizado para producción con minificación y purge de CSS.
+              </p>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+                <a class="btn btn--ghost" href="#contacto">Contáctame</a>
+              </div>
+            </div>
+
+            <div class="hero__card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop con código" />
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="sobre-mi">
+          <div class="container">
+            <div class="section__heading">
+              <p class="eyebrow">Perfil</p>
+              <h2>Sobre mí</h2>
+            </div>
+
+            <div class="about">
+              <div class="about__card">
+                <h3>Presentación</h3>
+                <p>
+                  Soy Esther Zeron y me interesa el desarrollo de interfaces web, el diseño responsive y la creación de experiencias digitales ordenadas y funcionales.
+                </p>
+              </div>
+
+              <div class="about__card">
+                <h3>Habilidades</h3>
+                <ul class="skill-list">
+                  <li>HTML5</li>
+                  <li>CSS / LESS</li>
+                  <li>JavaScript</li>
+                  <li>Vite</li>
+                  <li>Diseño responsive</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--alt" id="proyectos">
+          <div class="container">
+            <div class="section__heading">
+              <p class="eyebrow">Portafolio</p>
+              <h2>Mis proyectos</h2>
+            </div>
+
+            <div class="cards">
+              <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard" />
+                <div class="project-card__body">
+                  <h3>Dashboard de Ventas</h3>
+                  <p>Panel visual para analizar métricas, resultados y desempeño comercial con una interfaz clara y moderna.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=80" alt="Tienda en línea" />
+                <div class="project-card__body">
+                  <h3>Tienda en línea</h3>
+                  <p>Sitio de e-commerce orientado a mostrar productos, categorías destacadas y llamados a la acción.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Landing page" />
+                <div class="project-card__body">
+                  <h3>Landing Page</h3>
+                  <p>Página promocional enfocada en captar clientes con secciones limpias, mensajes directos y diseño responsive.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="contacto">
+          <div class="container contact">
+            <div>
+              <p class="eyebrow">Contacto</p>
+              <h2>Trabajemos juntos</h2>
+              <p>Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme.</p>
+              <p>+504 1234 5678</p>
+            </div>
+
+            <div class="contact__card">
+              <p><strong>Correo:</strong> esta_zeronr@unicah.edu</p>
+              <p><strong>GitHub:</strong> github.com/EstherZeron04</p>
+              <p><strong>Ubicación:</strong> Honduras</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer__content">
+          <p>© 2026 Esther Zeron. Portafolio desarrollado con Vite + LESS.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
